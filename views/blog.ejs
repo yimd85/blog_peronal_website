@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+      <link rel="stylesheet" href="/blogcss.css"></link>
+      <title> (' _') ~ hi! </title>
+    </head>
+
+    <body>
+      <h1>( '_')> Add Messeges <3 </h1>
+
+      <p>
+          <form action="/addshit" method="post">
+                      <div class="divUser">
+                        User:<input class="inputUser" type="text" name="user" required>
+                      </div>
+
+                      <div class="divPost">
+                        Post:<textarea class="divTextarea" rows=3 cols=30 type="text" name="post" required></textarea>
+                      </div>
+
+                  <button>Comment</button>
+          </form>
+
+          <a href="/">
+            <button>Back</button>
+          </a>
+
+      </p>
+
+
+
+      <h1>Posts <3</h1>
+
+            <div class='msg'>
+                  <% for(var i = 0; i < messages.length;i++){ %>
+                  <p class='msg-title'><%= messages[i].dataValues.user + ": " %>
+                        <span class='msg-body'><%= messages[i].dataValues.post %></span>
+                  </p>
+                  <% } %>
+            </div>
+
+    </body>
+</html>

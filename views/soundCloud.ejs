@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>SoundCloudAPI DY</title>
+      <script src="https://connect.soundcloud.com/sdk/sdk-3.1.2.js"></script>
+      <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+      <script>
+          SC.initialize({
+            client_id: 'fd4e76fc67798bfa742089ed619084a6'
+          });
+      </script>
+  </head>
+  <body>
+    <div>
+      <input id='inputbox' >
+      <button id='searchbutton'>search</button>
+    </div>
+<br>
+    <!-- <div> -->
+      <!-- <button data-action='play' id='playbutton'>play</button> -->
+      <!-- <button data-action='pause' id='pausebutton'>pause</button> -->
+      <!-- <button data-action='stop' id='stopbutton'>stop</button> -->
+    <!-- </div> -->
+<br>
+    <div>
+      <button data-action='next' id='nextbutton'>next</button>
+      <button data-action='prev' id='previousbutton'>prev </button>
+    </div>
+
+    <h2>Playlist:</h2>
+    <p id='error'></p>
+    <ul id='output'></ul>
+  </body>
+  <script src='/js.js'></script>
+</html>

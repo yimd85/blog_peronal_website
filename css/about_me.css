@@ -1,0 +1,63 @@
+/*CSS file for about_me.html*/
+
+.background {
+  background: url(/path.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.test{
+  height: 60px;
+  width: 60px;
+  filter: brightness(130%);
+
+}
+
+.head1 {
+  color: #000000;
+}
+
+.introducing {
+  position:absolute;
+  top:60%;
+  left: 2%;
+  margin: 0;
+}
+
+.font2 {
+  margin: 0%;
+  font-size: 120%;
+}
+
+.font1 {
+  font-size: 200%;
+  margin: 0%;
+}
+
+.foot {
+  height: 6em;
+  width: 6em;
+  border-radius: 100%;
+}
+
+.words, a , p{
+  color: yellow;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px gray;
+}
+
+.words{
+  text-decoration: underline;
+}
+
+button{
+  background-color: gray;
+  border-radius: 15px 50px 30px;
+  color: pink;
+}
+
+button:hover {
+  background-color: pink;
+    color: black;
+}
