@@ -1,7 +1,7 @@
 /*CSS file for about_me.html*/
 
 .background {
-  background: url(/path.jpg) no-repeat center center fixed;
+  background: url(../images/path.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
