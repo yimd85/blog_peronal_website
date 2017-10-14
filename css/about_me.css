@@ -2,53 +2,66 @@
 
 .background {
   background: url(../images/path.jpg) no-repeat center center fixed;
+  max-width: 100%;
+  height: auto;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
-.test{
-  height: 60px;
-  width: 60px;
-  filter: brightness(130%);
-
+.nokiaPic, .invadersPic, .soundCloudPic{
+  height: 7vh;
+  width: 7vw;
+  filter: brightness(115%);
 }
 
-.head1 {
-  color: #000000;
+
+.introduction {
+  color: hotpink;
+  font-size: 5vw;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px gray;
+  padding: 0;
+  text-decoration: underline;
 }
 
 .introducing {
-  position:absolute;
-  top:60%;
+
+  top:100%;
   left: 2%;
   margin: 0;
 }
 
 .font2 {
   margin: 0%;
-  font-size: 120%;
+  font-size: 1vw;
 }
 
 .font1 {
-  font-size: 200%;
+  font-size: 2vw;
   margin: 0%;
 }
 
-.foot {
-  height: 6em;
-  width: 6em;
+.profilePic {
+
+  top: 100%;
   border-radius: 100%;
+  max-width: 10%;
+  height: auto;
 }
 
-.words, a , p{
+.words, a , .font2, .font1{
   color: yellow;
+  font-size: 2.5vw;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px gray;
 }
 
 .words{
   text-decoration: underline;
+}
+
+p{
+  margin:0;
 }
 
 button{
@@ -59,5 +72,5 @@ button{
 
 button:hover {
   background-color: pink;
-    color: black;
+  color: black;
 }

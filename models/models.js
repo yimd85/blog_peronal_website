@@ -24,15 +24,19 @@ var Stuff = sequelize.define('boardpost', {
 });
 
 
-Stuff//creating first entry
-.sync()
-.then(function(){
-  Stuff.create({
-    user: 'MyspaceTom',
-    post: 'hello friend!'
-  });
-});
+// Stuff//creating first entry
+// .sync()
+// .then(function(){
+//   Stuff.create({
+//     user: 'MyspaceTom',
+//     post: 'hello friend!'
+//   });
+// });
 
 Stuff.sync();
 
 module.exports = Stuff;
+
+
+//heroku addons:create heroku-postgresql:hobby-dev
+//heroku config
